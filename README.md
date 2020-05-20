@@ -56,38 +56,3 @@ Part-II: GDP and Education
 
 Analyse if there is any correlation of GDP per capita with dropout rates in education (primary, upper primary and secondary) for the year 2014-2015 for the states. Choose an appropriate plot to conduct this analysis.
 
-Write the key insights you observe from this data:
-
-Form at least one reasonable hypothesis for the observations from the data
-
-Important Note: All your code has to be submitted in one Jupyter notebook. For every checkpoint, keep writing code in one well-commented Jupyter notebook which you can submit at the end.
-
-feedbackReport an error PreviousProblem Description - I Next Dataset
-
-Q & A : Problem Description - II Search for question keywords Show only Starredinfo
-
-how to label bars in seaborn.barplot()? Searched online but all answers were for df.plot() a year ago by Gajanan Pund 2 answers JS Data Mining Assignment: multiple Python files a year ago by Jyoti Sadanand 3 answers MP For GDP assignment 2, the state names are different in the two files (GDP, 2) , how can we go about joining the files? Do we fix it in the excel or python? a year ago by Mamtha P 4 answers
-
-Can i remove certain repeating phrase from pd.Series? a year ago by Dey Prawal 5 answers
-
-GDP Analysis Part IA , cant add rows with calculations a year ago by Antony Boity 2 answers
-
-Find the top 3/4/5 sub-sectors (such as agriculture, forestry and fishing, crops, manufacturing etc.) [not primary, secondary and tertiary] which contribute to approx. 80% of the GSDP of each category. a year ago by Sourav Banerjee 1 answers
-
-Analyse if there is any correlation of GDP per capita with dropout rates in education (primary, upper primary and secondary) for the year 2014-2015 for the states. Choose an appropriate plot to conduct this analysis. a year ago by Sourav Banerjee 2 answers A please help me to calculate the average growth of states over the duration 2013-14, 2014-15 and 2015-16 by taking the mean of the row '(% Growth over previous year)'. I don't know how to proceed. a year ago by Amrinder 2 answers
-
-How can i change column name in dataframe? a year ago by Dey Prawal 4 answers
-
-Find the top 3/4/5 sub-sectors (such as agriculture, forestry and fishing, crops, manufacturing etc.) [not primary, secondary and tertiary] which contribute to approx. 80% of the GSDP of each category. What does i mean and what to do exactly? a year ago by Sourav Banerjee 4 answers SESSION QUESTIONS AD Correctly presented the insight but you have not provided any recommendations. a year ago by Arijit Das 1 answers
-
-GDP Assignment - improvements on basic approach a year ago by RaviPrasad Kondaveeti 2 answers KK Can anyone please specify the belwo points related to GDP analysis results a year ago by Kiranmayi K 3 answers
-
-Addressed to one of the TAs. In my GDP assignment I have feedback for all the sections except the Presentation of results. Is this because I did all my presentation in Jupyter notebook using markdown and did not submit a presentation pdf? a year ago by Udit Pathak 2 answers
-
-In GDP Assignment we've been asked to remove "% growth.. " rows, but later asked to compute avg growth by taking those very rows into consideration. Can someone clarify? a year ago by Gaurav Vatsa 3 answers SN drop_out1415=drop_out.loc[:,['Level of Education - State','Primary - 2014-2015','Primary - 2014-2015.1','Upper Primary - 2014-2015','Secondary - 2014-2015']].reset_index() drop_gdp=gdpcp_df['Per Capita GSDP (Rs.)'].sort_index().reset_index() drop_co14=pd.concat([drop_out1415,drop_gdp],axis=1) drop_co14=drop_co14.loc[:,['Per Capita GSDP (Rs.)','Primary - 2014-2015','Primary - 2014-2015.1','Upper Primary - 2014-2015','Secondary - 2014-2015']] drop_co14.corr() a year ago by Sai Naga Subramanyam R.V. 2 answers
-
-GDP Part 2 : Drop out rate vs per capita GDP a year ago by Leena Sajnani 1 answers
-
-Dataframe Merging with same row labels , getting "KeyError" issue a year ago by Leena Sajnani 3 answers S what all we should do in GDP assignment 1-a a year ago by Sriram Lochan 2 answers
-
-Can we use other imputation libraries to impute values in GDP Part 2 a year ago by Leena Sajnani 4 answers View all in Discussion Forum arrow_forward menuNAVIGATE close keyboard_arrow_down Session 1 Assignment: GDP Analysis Problem Description - I Problem Description - II Dataset Evaluation Rubric Final Submission keyboard_arrow_down Session 2OPTIONAL Assignment Solution
